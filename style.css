@@ -26,3 +26,24 @@
   opacity: 1;
   color: rgb(231, 114, 31);
 }
+@media (max-width: 541px) {
+  .nav {
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 465px) {
+  .nav {
+    font-size: 14px;
+  }
+}
+@media (max-width: 394px) {
+  .nav {
+    font-size: 12px;
+  }
+}
+@media (max-width: 380px) {
+  .nav {
+    font-size: 10px;
+  }
+}
