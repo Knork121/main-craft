@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap");
+.nav {
+  background-color: rgb(47, 49, 39);
+  font-size: 24px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+}
+.nav-link {
+  padding: 20px;
+  transition: all 0.3s;
+  color: rgb(210, 105, 30);
+  opacity: 0.8;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 1;
+  color: rgb(231, 114, 31);
+}
+
+.nav-item > .active {
+  font-weight: 600;
+}
+
+.active {
+  opacity: 1;
+  color: rgb(231, 114, 31);
+}
